@@ -1,0 +1,13 @@
+.health {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.signup {
+  text-align: center;
+  margin: 15px 10px;
+  border-radius: 10px;
+  background-color: rgb(243, 219, 197) !important;
+  box-shadow: 0px 5px 2px rgb(247, 214, 184) !important;
+}
