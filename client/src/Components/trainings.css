@@ -13,3 +13,16 @@
   text-align: center;
   margin: 15px 10px;
 }
+.fork {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  color: white;
+}
+.fork1 {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  padding: 3px;
+  border-radius: 5px !important;
+}

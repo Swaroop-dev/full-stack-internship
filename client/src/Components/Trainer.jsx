@@ -11,16 +11,16 @@ export default function Trainers() {
     <div className="train3">
       <Card className="trainer">
         <CardContent className="train4">
-          <Avatar src={logo1} />
+          <Avatar src={logo1} style={{ float: "left" }} />
           <Typography></Typography>
-          <TextsmsOutlinedIcon />
+          <TextsmsOutlinedIcon style={{ float: "right" }} />
         </CardContent>
       </Card>
       <Card className="trainer">
         <CardContent>
-          <Avatar src={logo2} />
-          <Typography></Typography>
-          <TextsmsOutlinedIcon  />
+          <Avatar src={logo2} style={{ float: "left" }} />
+          <Typography style={{ float: "left" }}>hello</Typography>
+          <TextsmsOutlinedIcon style={{ float: "right" }} />
         </CardContent>
       </Card>
     </div>
